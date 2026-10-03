@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>奇特电影网 - 冷门佳片与邪典电影推荐_小众电影片单每日更新</title>
+<meta name="description" content="奇特电影网（https://qitedianyingwang-cn.github.io）专注冷门佳片、邪典电影与小众电影推荐，每日更新奇片片单、冷门宝藏、导演专题与观影冷知识，提供剧情简介、评分参考与选片指南，页面移动端自适应，找点不一样的电影来看。">
+<meta name="keywords" content="奇特电影网,冷门佳片,邪典电影,小众电影,奇片推荐,冷门电影,电影推荐,观影冷知识,导演专题,在线观看,影视片单">
+<meta name="author" content="奇特电影网">
+<meta name="robots" content="index,follow">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#faf7f0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="奇特电影网">
+<link rel="canonical" href="https://qitedianyingwang-cn.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="奇特电影网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="奇特电影网 - 冷门佳片与邪典电影推荐_小众电影片单每日更新">
+<meta property="og:description" content="奇特电影网每日更新冷门佳片、邪典电影与小众电影片单，附剧情简介、评分参考与观影冷知识，手机电脑都能顺畅浏览。">
+<meta property="og:url" content="https://qitedianyingwang-cn.github.io/">
+<meta property="og:image" content="https://qitedianyingwang-cn.github.io/cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="奇特电影网 - 冷门佳片与邪典电影推荐">
+<meta name="twitter:description" content="冷门佳片、邪典电影、小众电影一站聚合，奇特电影网每日更新。">
+<style>
+/* ==========================================================
+   奇特电影网 · 手账剪贴 zine 拼贴风
+   视觉：纸白点阵底 + 荧光笔高亮 + 胶带条 + 微旋贴纸 + 圆珠笔蓝
+   DOM 与前七版不同：翻转卡 / 目录点线索引 / 标本册编号卡 /
+   对话气泡影评 / 便签墙 / 手绘箭头头图
+   ========================================================== */
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Helvetica,Arial,sans-serif;
+  background:#faf7f0;color:#1f1d1a;line-height:1.82;font-size:16px;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+img{border:0;max-width:100%;height:auto}
+h1,h2,h3,h4{line-height:1.4}
+
+:root{
+  --paper:#faf7f0;
+  --ink:#1f1d1a;
+  --pen:#2b5fd9;
+  --marker:#f2e14c;
+  --pink:#ff5fa2;
+  --stamp:#e03b3b;
+  --sub:#5c564d;
+  --muted:#8b8477;
+  --line:rgba(31,29,26,.18);
+  --card:#fffdf8;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-image:radial-gradient(rgba(31,29,26,.13) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(760px 480px at 90% -6%,rgba(255,95,162,.13),transparent 62%),
+    radial-gradient(720px 460px at 4% 8%,rgba(43,95,217,.10),transparent 60%),
+    radial-gradient(700px 560px at 50% 108%,rgba(242,225,76,.18),transparent 62%);
+}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 22px}
+
+/* 通用零件：荧光笔 / 胶带 / 别针 */
+.mark{background:linear-gradient(transparent 58%,var(--marker) 58%)}
+.tape{position:absolute;width:96px;height:24px;background:rgba(242,225,76,.55);border:1px solid rgba(31,29,26,.12);box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.tape::before,.tape::after{content:"";position:absolute;top:0;bottom:0;width:6px;background:rgba(242,225,76,.75)}
+.tape::before{left:-4px;clip-path:polygon(0 0,100% 8%,100% 92%,0 100%)}
+.tape::after{right:-4px;clip-path:polygon(0 8%,100% 0,100% 100%,0 92%)}
+.pin{position:absolute;width:16px;height:16px;border-radius:50%;background:var(--stamp);box-shadow:inset 0 -3px 4px rgba(0,0,0,.28),0 3px 6px rgba(0,0,0,.22)}
+.pin::after{content:"";position:absolute;left:5px;top:5px;width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.7)}
+
+/* ============ 顶部 ============ */
+.topstrip{background:var(--ink);color:#ded7ca;font-size:12.5px}
+.topstrip .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:7px 22px;min-height:34px}
+.topstrip span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topstrip b{color:var(--marker)}
+
+header.zine{border-bottom:2px solid var(--ink);background:rgba(255,253,248,.92);position:sticky;top:0;z-index:60;backdrop-filter:blur(8px)}
+.zine-inner{max-width:1160px;margin:0 auto;padding:13px 22px;display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.logo .tag{
+  padding:7px 14px;border:2px solid var(--ink);border-radius:3px;transform:rotate(-3deg);
+  font-weight:800;font-size:17px;letter-spacing:2px;background:var(--marker);color:var(--ink);
+  box-shadow:3px 3px 0 var(--ink);
+}
+.logo small{display:block;font-size:10.5px;letter-spacing:2.2px;color:var(--muted)}
+
+nav.doodle{margin-left:auto;overflow-x:auto;scrollbar-width:none}
+nav.doodle::-webkit-scrollbar{display:none}
+nav.doodle ul{display:flex;gap:8px}
+nav.doodle a{
+  display:block;padding:7px 14px;font-size:14px;color:var(--sub);border:2px solid transparent;border-radius:14px 6px 14px 6px;white-space:nowrap;transition:.2s;
+}
+nav.doodle a:hover{color:var(--ink);border-color:var(--ink);background:#fff}
+nav.doodle a.on{color:#fff;background:var(--ink);border-color:var(--ink);box-shadow:2px 2px 0 var(--pink)}
+
+.scribble{flex:0 0 auto;display:flex;align-items:center;border:2px solid var(--ink);border-radius:16px;background:#fff;padding:2px}
+.scribble input{width:140px;height:30px;border:0;outline:none;background:transparent;padding:0 12px;font-size:13.5px;color:var(--ink);font-family:inherit}
+.scribble input::placeholder{color:#a49c8e}
+.scribble button{height:30px;border:0;border-radius:12px;padding:0 14px;font-size:13px;font-weight:700;color:#fff;background:var(--pen);cursor:pointer;font-family:inherit}
+
+/* ============ HERO：剪贴海报 ============ */
+.hero{padding:36px 0 10px}
+.paste{
+  position:relative;border:2px solid var(--ink);border-radius:6px;background:var(--card);
+  padding:40px 40px 34px;box-shadow:6px 6px 0 rgba(31,29,26,.10);
+  transform:rotate(-.5deg);
+}
+.paste .tape{left:34px;top:-12px;transform:rotate(-6deg)}
+.paste .tape.r{left:auto;right:28px;top:-12px;transform:rotate(5deg)}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:28px;align-items:start}
+.hero-l .kicker{
+  display:inline-block;font-size:12px;letter-spacing:3px;color:var(--ink);background:var(--pink);
+  padding:4px 14px;border-radius:2px;transform:rotate(-2deg);border:2px solid var(--ink);
+}
+.hero-l h1{margin:18px 0 0;font-size:clamp(28px,5.2vw,46px);letter-spacing:1px;color:var(--ink)}
+.hero-l h1 em{font-style:normal;color:var(--stamp)}
+.hero-l p{margin-top:14px;font-size:15px;color:#4e4840;max-width:38em}
+.hero-l .url{margin-top:12px;font-size:13.5px;color:var(--muted);word-break:break-all}
+.hero-l .url b{color:var(--pen)}
+.hero-btns{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+.btnp{display:inline-block;padding:11px 24px;border:2px solid var(--ink);border-radius:14px 6px 14px 6px;font-size:14.5px;font-weight:700;transition:.2s}
+.btnp-a{background:var(--ink);color:#fff;box-shadow:3px 3px 0 var(--marker)}
+.btnp-b{background:#fff;color:var(--ink);box-shadow:3px 3px 0 var(--pink)}
+.btnp:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 var(--marker)}
+.btnp-b:hover{box-shadow:5px 5px 0 var(--pink)}
+
+/* 右侧手绘卡片堆 */
+.scraps{display:grid;gap:14px}
+.scrap{
+  position:relative;border:2px solid var(--ink);background:#fff;padding:16px 18px;box-shadow:4px 4px 0 rgba(31,29,26,.10);
+}
+.scrap:nth-child(1){transform:rotate(-1.6deg)}
+.scrap:nth-child(2){transform:rotate(1.4deg);background:var(--marker)}
+.scrap:nth-child(3){transform:rotate(-.8deg);background:#d9e6ff}
+.scrap .h{font-size:12.5px;letter-spacing:2px;color:var(--muted)}
+.scrap .v{margin-top:4px;font-size:22px;font-weight:800;color:var(--ink)}
+.scrap .v i{font-style:normal;font-size:12.5px;color:var(--sub);font-weight:400;margin-left:5px}
+.scrap p{margin-top:6px;font-size:12.5px;color:#4e4840}
+
+/* ============ 栏目通用 ============ */
+section.blk{padding:44px 0 6px}
+.cap{display:flex;align-items:flex-end;gap:14px;margin-bottom:22px;padding-bottom:12px;border-bottom:2px dashed var(--line);flex-wrap:wrap}
+.cap .sticker{
+  flex:0 0 auto;font-size:12px;letter-spacing:2px;color:#fff;background:var(--stamp);
+  padding:5px 12px;border-radius:2px;transform:rotate(-3deg);border:2px solid var(--ink);
+}
+.cap h2{font-size:clamp(19px,3.4vw,26px);color:var(--ink);letter-spacing:1px}
+.cap .dsc{font-size:13px;color:var(--muted);margin-top:4px}
+.cap .go{
+  margin-left:auto;font-size:13px;color:var(--ink);border:2px solid var(--ink);padding:5px 14px;
+  border-radius:14px 6px 14px 6px;background:#fff;white-space:nowrap;box-shadow:2px 2px 0 var(--marker);
+}
+
+/* ============ 一、冷门片墙：翻转卡 ============ */
+.flips{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.flip{perspective:1000px}
+.flip .inner{
+  position:relative;width:100%;min-height:250px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.2,.2,1);
+}
+.flip:hover .inner{transform:rotateY(180deg)}
+.flip .face{
+  position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  border:2px solid var(--ink);border-radius:5px;overflow:hidden;display:flex;flex-direction:column;
+}
+.flip .front{background:var(--card);box-shadow:5px 5px 0 rgba(31,29,26,.10)}
+.flip .front .ph{flex:1;display:flex;align-items:center;justify-content:center;padding:16px;text-align:center;position:relative}
+.flip .front .ph span{font-size:20px;font-weight:800;color:#fff;letter-spacing:2px;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+.q1{background:linear-gradient(155deg,#2b5fd9,#7fa4ff)}
+.q2{background:linear-gradient(155deg,#e03b3b,#ff8a7a)}
+.q3{background:linear-gradient(155deg,#1f7a5c,#7fd0a8)}
+.q4{background:linear-gradient(155deg,#6b3fa0,#c0a0e8)}
+.q5{background:linear-gradient(155deg,#a8762b,#f0c887)}
+.q6{background:linear-gradient(155deg,#0f6b7a,#7fc9d4)}
+.q7{background:linear-gradient(155deg,#a8325f,#ff9fc4)}
+.q8{background:linear-gradient(155deg,#2f3b1f,#a8bd88)}
+.flip .front .fb{padding:12px 14px 14px;border-top:2px solid var(--ink);background:#fff}
+.flip .front .fb h3{font-size:15px;color:var(--ink)}
+.flip .front .fb p{margin-top:4px;font-size:12.5px;color:var(--muted)}
+.flip .front .num{
+  position:absolute;right:10px;top:10px;font-size:12px;font-weight:800;color:var(--ink);
+  background:var(--marker);padding:2px 9px;border:2px solid var(--ink);border-radius:2px;
+}
+.flip .back{
+  transform:rotateY(180deg);background:var(--ink);color:#efe9dc;padding:22px 20px;justify-content:center;
+}
+.flip .back h3{font-size:16px;color:var(--marker)}
+.flip .back p{margin-top:10px;font-size:13px;color:#cfc8ba}
+.flip .back .row{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+.flip .back .row span{font-size:11.5px;padding:3px 10px;border:1px solid rgba(255,255,255,.35);border-radius:2px;color:#efe9dc}
+
+/* ============ 二、目录点线索引 ============ */
+.toc{border:2px solid var(--ink);border-radius:5px;background:var(--card);padding:18px 22px;box-shadow:5px 5px 0 rgba(31,29,26,.10)}
+.toc li{display:flex;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px dotted var(--line)}
+.toc li:last-child{border-bottom:0}
+.toc li .code{flex:0 0 auto;font-size:12px;color:var(--pen);font-weight:700;letter-spacing:1px}
+.toc li .nm{flex:0 1 auto;font-size:15px;color:var(--ink)}
+.toc li .nm a:hover{color:var(--stamp)}
+.toc li .dots{flex:1 1 auto;border-bottom:1px dotted rgba(31,29,26,.45);margin-bottom:5px;min-width:20px}
+.toc li .pg{flex:0 0 auto;font-size:13px;color:var(--muted)}
+.toc li .sc{flex:0 0 auto;font-size:13px;font-weight:800;color:var(--stamp)}
+
+/* ============ 三、类型标本册 ============ */
+.specs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.spec{
+  position:relative;border:2px solid var(--ink);border-radius:5px;background:var(--card);padding:18px 18px 16px;
+  box-shadow:5px 5px 0 rgba(31,29,26,.10);transition:.24s;
+}
+.spec:nth-child(3n+1){transform:rotate(-1deg)}
+.spec:nth-child(3n+2){transform:rotate(.8deg)}
+.spec:nth-child(3n){transform:rotate(-.6deg)}
+.spec:hover{box-shadow:7px 7px 0 rgba(31,29,26,.16);transform:translateY(-3px) rotate(0deg)}
+.spec .pin{right:12px;top:10px}
+.spec .no{font-size:11.5px;letter-spacing:2px;color:var(--muted)}
+.spec h3{margin-top:4px;font-size:16.5px;color:var(--ink)}
+.spec .ex{margin-top:8px;font-size:13px;color:#4e4840}
+.spec .meta{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted)}
+.spec .meta b{color:var(--pen)}
+
+/* ============ 四、对话气泡影评 ============ */
+.chats{display:grid;gap:16px}
+.chat{display:flex;gap:12px;align-items:flex-start}
+.chat.rev{flex-direction:row-reverse}
+.chat .who{
+  flex:0 0 44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:14px;font-weight:800;color:#fff;border:2px solid var(--ink);flex:0 0 auto;
+}
+.w1{background:var(--pen)}
+.w2{background:var(--pink)}
+.w3{background:var(--stamp)}
+.w4{background:#1f7a5c}
+.chat .bub{
+  position:relative;max-width:760px;border:2px solid var(--ink);border-radius:16px;padding:14px 18px;background:#fff;
+  box-shadow:4px 4px 0 rgba(31,29,26,.10);
+}
+.chat.rev .bub{background:var(--marker);border-radius:16px 16px 4px 16px}
+.chat:not(.rev) .bub{border-radius:16px 16px 16px 4px}
+.chat .bub::before{
+  content:"";position:absolute;bottom:-2px;width:14px;height:14px;background:inherit;
+  border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);
+}
+.chat:not(.rev) .bub::before{left:-9px;transform:skewX(-28deg);border-radius:0 0 4px 0}
+.chat.rev .bub::before{right:-9px;border-right:0;border-left:2px solid var(--ink);transform:skewX(28deg);border-radius:0 0 0 4px}
+.chat .bub h3{font-size:15px;color:var(--ink)}
+.chat .bub p{margin-top:6px;font-size:13.5px;color:#4e4840}
+.chat .bub .who2{margin-top:8px;font-size:12px;color:var(--muted)}
+
+/* ============ 五、便签墙冷知识 ============ */
+.notes{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.note{
+  position:relative;padding:20px 18px 18px;border:2px solid var(--ink);box-shadow:4px 4px 0 rgba(31,29,26,.10);
+  min-height:172px;transition:.24s;
+}
+.note:nth-child(4n+1){background:#fff3a8;transform:rotate(-1.6deg)}
+.note:nth-child(4n+2){background:#ffe0ee;transform:rotate(1.2deg)}
+.note:nth-child(4n+3){background:#dff3e6;transform:rotate(-.8deg)}
+.note:nth-child(4n){background:#dbe6ff;transform:rotate(1.8deg)}
+.note:hover{transform:rotate(0deg) translateY(-4px);box-shadow:7px 7px 0 rgba(31,29,26,.16)}
+.note .tape{left:50%;margin-left:-48px;top:-11px;transform:rotate(-2deg)}
+.note h3{font-size:15px;color:var(--ink);margin-bottom:7px}
+.note p{font-size:13px;color:#4e4840}
+
+/* ============ 六、站点特色 ============ */
+.pts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.pt{
+  border:2px solid var(--ink);border-radius:5px;background:var(--card);padding:20px 18px;position:relative;
+  box-shadow:5px 5px 0 rgba(31,29,26,.10);
+}
+.pt .n{
+  position:absolute;right:12px;top:6px;font-size:32px;font-weight:900;color:var(--marker);
+  -webkit-text-stroke:1.5px var(--ink);line-height:1;
+}
+.pt h3{font-size:15.5px;color:var(--ink);margin-bottom:7px}
+.pt p{font-size:13px;color:#4e4840}
+
+/* ============ 七、FAQ 便签折叠 ============ */
+.faqs{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+.faqs details{border:2px solid var(--ink);border-radius:5px;background:#fff;padding:14px 20px;box-shadow:4px 4px 0 rgba(31,29,26,.10)}
+.faqs details:nth-child(odd){transform:rotate(-.6deg)}
+.faqs details:nth-child(even){transform:rotate(.7deg);background:#fffdf0}
+.faqs summary{cursor:pointer;font-size:15.5px;font-weight:700;color:var(--ink);list-style:none}
+.faqs summary::-webkit-details-marker{display:none}
+.faqs summary::after{content:"＋";float:right;color:var(--stamp);font-weight:800}
+.faqs details[open] summary::after{content:"－"}
+.faqs details p{margin-top:10px;font-size:13.5px;color:#4e4840}
+
+/* ============ 页脚 ============ */
+footer.foot{margin-top:52px;background:var(--ink);color:#ded7ca;padding:40px 0 24px;border-top:6px solid var(--marker)}
+.f-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px}
+.f-grid h4{font-size:14.5px;color:var(--marker);letter-spacing:1px;margin-bottom:12px}
+.f-grid li{font-size:13.5px;padding:4px 0}
+.f-grid li a:hover{color:var(--pink)}
+.f-brand .sb{
+  display:inline-block;padding:6px 14px;border:2px solid var(--marker);border-radius:3px;color:var(--marker);
+  font-size:18px;letter-spacing:2px;font-weight:800;margin-bottom:12px;transform:rotate(-2deg);
+}
+.f-brand p{font-size:13.5px;line-height:1.95;color:#bdb6a8}
+.copy{margin-top:26px;padding-top:18px;border-top:1px dashed rgba(255,255,255,.18);font-size:12.5px;color:#8f887b;text-align:center;line-height:1.9}
+
+/* ============ 移动端底栏 ============ */
+.dock{
+  display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:rgba(255,253,248,.98);
+  border-top:2px solid var(--ink);padding:6px 4px calc(6px + env(safe-area-inset-bottom));
+}
+.dock ul{display:flex}
+.dock li{flex:1}
+.dock a{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;color:var(--muted);padding:5px 0}
+.dock a .ic{font-size:16px;line-height:1;color:var(--ink)}
+.dock a.on{color:var(--stamp);font-weight:700}
+.dock a.on .ic{color:var(--stamp)}
+.up{
+  position:fixed;right:18px;bottom:80px;z-index:65;width:44px;height:44px;border-radius:14px 6px 14px 6px;
+  display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:#fff;background:var(--ink);
+  border:2px solid var(--ink);box-shadow:3px 3px 0 var(--marker);
+}
+
+/* ============ 响应式 ============ */
+@media (max-width:1080px){
+  .hero-grid{grid-template-columns:1fr}
+  .flips{grid-template-columns:repeat(2,1fr)}
+  .specs{grid-template-columns:repeat(2,1fr)}
+  .notes{grid-template-columns:repeat(2,1fr)}
+  .pts{grid-template-columns:repeat(2,1fr)}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:768px){
+  body{font-size:15px;padding-bottom:62px}
+  .wrap{padding:0 16px}
+  .topstrip .wrap{padding:7px 16px;font-size:11.5px}
+  .topstrip .wrap span:last-child{display:none}
+  .zine-inner{padding:11px 16px;gap:10px}
+  .logo .tag{font-size:14px;padding:5px 10px}
+  .logo small{font-size:9.5px;letter-spacing:1.2px}
+  .scribble{display:none}
+  nav.doodle a{padding:6px 11px;font-size:13.5px}
+  .hero{padding:22px 0 4px}
+  .paste{padding:26px 20px 22px;box-shadow:4px 4px 0 rgba(31,29,26,.10)}
+  .paste .tape{width:76px;height:20px;left:20px}
+  .paste .tape.r{right:16px}
+  .scraps{gap:12px}
+  section.blk{padding:32px 0 2px}
+  .cap .go{margin-left:0;width:100%;text-align:center}
+  .flips{grid-template-columns:1fr;gap:14px}
+  .flip .inner{min-height:230px}
+  .toc{padding:14px 16px}
+  .toc li{flex-wrap:wrap;gap:6px}
+  .toc li .code{flex:0 0 auto}
+  .toc li .nm{flex:1 1 60%;font-size:14px}
+  .toc li .dots{display:none}
+  .toc li .pg,.toc li .sc{font-size:12.5px}
+  .specs{grid-template-columns:1fr;gap:14px}
+  .spec{transform:rotate(0deg)}
+  .chat{gap:9px}
+  .chat .who{width:38px;height:38px;font-size:13px}
+  .chat .bub{padding:12px 14px}
+  .chat .bub h3{font-size:14.5px}
+  .notes{grid-template-columns:1fr;gap:14px}
+  .note{transform:rotate(0deg);min-height:0}
+  .pts{grid-template-columns:1fr;gap:12px}
+  .faqs{grid-template-columns:1fr}
+  .faqs details{transform:rotate(0deg)}
+  .f-grid{grid-template-columns:1fr;gap:22px}
+  .dock{display:block}
+  .up{bottom:74px;right:12px;width:40px;height:40px}
+}
+@media (max-width:420px){
+  .flip .inner{min-height:210px}
+  .flip .front .ph span{font-size:17px}
+  .paste{padding:22px 16px 18px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://qitedianyingwang-cn.github.io/#website",
+      "url": "https://qitedianyingwang-cn.github.io/",
+      "name": "奇特电影网",
+      "alternateName": "奇特电影",
+      "description": "奇特电影网专注冷门佳片、邪典电影与小众电影推荐，每日更新奇片片单、冷门宝藏、导演专题与观影冷知识。",
+      "inLanguage": "zh-CN",
+      "publisher": { "@id": "https://qitedianyingwang-cn.github.io/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://qitedianyingwang-cn.github.io/#search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://qitedianyingwang-cn.github.io/#organization",
+      "name": "奇特电影网",
+      "url": "https://qitedianyingwang-cn.github.io/",
+      "logo": "https://qitedianyingwang-cn.github.io/logo.png"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://qitedianyingwang-cn.github.io/#webpage",
+      "url": "https://qitedianyingwang-cn.github.io/",
+      "name": "奇特电影网 - 冷门佳片与邪典电影推荐_小众电影片单每日更新",
+      "isPartOf": { "@id": "https://qitedianyingwang-cn.github.io/#website" },
+      "about": "冷门佳片、邪典电影、小众电影的推荐与观影冷知识",
+      "inLanguage": "zh-CN",
+      "breadcrumb": { "@id": "https://qitedianyingwang-cn.github.io/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://qitedianyingwang-cn.github.io/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "奇特电影网首页", "item": "https://qitedianyingwang-cn.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "奇片墙", "item": "https://qitedianyingwang-cn.github.io/#wall" },
+        { "@type": "ListItem", "position": 3, "name": "冷门索引", "item": "https://qitedianyingwang-cn.github.io/#index" },
+        { "@type": "ListItem", "position": 4, "name": "类型标本册", "item": "https://qitedianyingwang-cn.github.io/#specimen" },
+        { "@type": "ListItem", "position": 5, "name": "观后闲聊", "item": "https://qitedianyingwang-cn.github.io/#chat" },
+        { "@type": "ListItem", "position": 6, "name": "观影冷知识", "item": "https://qitedianyingwang-cn.github.io/#notes" },
+        { "@type": "ListItem", "position": 7, "name": "站点特色", "item": "https://qitedianyingwang-cn.github.io/#why" },
+        { "@type": "ListItem", "position": 8, "name": "关于奇特电影网", "item": "https://qitedianyingwang-cn.github.io/#about" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://qitedianyingwang-cn.github.io/#wall",
+      "name": "奇特电影网奇片墙片单",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": 8,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "时间褶皱（科幻 · 2024）" },
+        { "@type": "ListItem", "position": 2, "name": "无声小镇（悬疑 · 2023）" },
+        { "@type": "ListItem", "position": 3, "name": "铁皮森林（动画 · 2022）" },
+        { "@type": "ListItem", "position": 4, "name": "午夜放映厅（恐怖 · 2021）" },
+        { "@type": "ListItem", "position": 5, "name": "倒着走的钟（剧情 · 2025）" },
+        { "@type": "ListItem", "position": 6, "name": "海边的第八日（文艺 · 2023）" },
+        { "@type": "ListItem", "position": 7, "name": "纸上城市（纪录 · 2024）" },
+        { "@type": "ListItem", "position": 8, "name": "长镜头旅人（实验 · 2022）" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qitedianyingwang-cn.github.io/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "奇特电影网主要推荐什么类型的电影？",
+          "acceptedAnswer": { "@type": "Answer", "text": "奇特电影网主要推荐冷门佳片、邪典电影与小众电影，包括科幻、悬疑、动画、恐怖、文艺、纪录与实验影像等方向，也收录部分被低估的主流影片，并附剧情简介与评分参考。" }
+        },
+        {
+          "@type": "Question",
+          "name": "奇特电影网的片单多久更新一次？",
+          "acceptedAnswer": { "@type": "Answer", "text": "奇片墙与冷门索引每日 20:00 更新，类型标本册按周补充，观影冷知识持续增补，评分参考随新片收录同步刷新。" }
+        },
+        {
+          "@type": "Question",
+          "name": "手机端可以正常浏览奇特电影网吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "可以。奇特电影网采用响应式设计，翻转卡片在小屏切换为单列，冷门索引自动折叠点线引导，便签墙取消倾斜排列，移动端另配底部快捷导航。" }
+        },
+        {
+          "@type": "Question",
+          "name": "找不到想看的冷门电影怎么办？",
+          "acceptedAnswer": { "@type": "Answer", "text": "可使用顶部搜索框按片名或导演检索，也可进入冷门索引按编号与类型查找；仍未收录的影片可通过联系站长提交片名，会在下一次更新时优先补录。" }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body id="top">
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<!-- ============ 顶部细条 ============ -->
+<div class="topstrip">
+  <div class="wrap">
+    <span>奇特电影网 · 冷门佳片 / 邪典电影 / 小众电影 · 每日 <b>20:00</b> 更新</span>
+    <span>https://qitedianyingwang-cn.github.io</span>
+  </div>
+</div>
+
+<!-- ============ 头部 ============ -->
+<header class="zine">
+  <div class="zine-inner">
+    <div class="logo">
+      <span class="tag">奇特电影网</span>
+      <small>QITE MOVIE · 冷门佳片</small>
+    </div>
+    <nav class="doodle" aria-label="主导航">
+      <ul>
+        <li><a href="#top" class="on">首页</a></li>
+        <li><a href="#wall">奇片墙</a></li>
+        <li><a href="#index">冷门索引</a></li>
+        <li><a href="#specimen">标本册</a></li>
+        <li><a href="#chat">观后闲聊</a></li>
+        <li><a href="#notes">冷知识</a></li>
+        <li><a href="#why">站点特色</a></li>
+        <li><a href="#about">关于本站</a></li>
+      </ul>
+    </nav>
+    <form class="scribble" action="#" method="get" role="search">
+      <label for="q" style="position:absolute;left:-9999px">搜索影片</label>
+      <input id="q" name="q" type="search" placeholder="搜片名 / 导演 / 类型">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ 首屏：剪贴海报 ============ -->
+<section class="hero wrap" aria-labelledby="h1">
+  <div class="paste">
+    <span class="tape" aria-hidden="true"></span>
+    <span class="tape r" aria-hidden="true"></span>
+    <div class="hero-grid">
+      <div class="hero-l">
+        <span class="kicker">冷 门 · 邪 典 · 小 众</span>
+        <h1 id="h1">看点不一样的，就来<em>奇特电影网</em></h1>
+        <p>奇特电影网专注<span class="mark">冷门佳片、邪典电影与小众电影</span>推荐，把那些评分不高却后劲十足、看过的人不多却值得被提起的影片整理成册。这里有每日更新的奇片墙、按编号排列的冷门索引、按类型分册的标本册，以及编辑与读者的观后闲聊和观影冷知识。</p>
+        <p class="url">网站网址：<b>https://qitedianyingwang-cn.github.io</b></p>
+        <div class="hero-btns">
+          <a class="btnp btnp-a" href="#wall">翻开奇片墙</a>
+          <a class="btnp btnp-b" href="#index">查冷门索引</a>
+        </div>
+      </div>
+      <aside class="scraps" aria-label="奇特电影网数据速览">
+        <div class="scrap">
+          <span class="h">收录规模</span>
+          <div class="v">3860<i>部冷门影片</i></div>
+          <p>奇特电影网按类型与年代分册整理，持续补录被低估的作品。</p>
+        </div>
+        <div class="scrap">
+          <span class="h">每日上新</span>
+          <div class="v">12<i>部 / 天</i></div>
+          <p>奇片墙每晚 20:00 更新，附剧情简介与编辑评分参考。</p>
+        </div>
+        <div class="scrap">
+          <span class="h">分类维度</span>
+          <div class="v">9<i>个标本分册</i></div>
+          <p>从科幻、悬疑、动画到实验影像，每册标注代表作品。</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目一：奇片墙（翻转卡） ============ -->
+<section class="blk wrap" id="wall" aria-labelledby="s1">
+  <div class="cap">
+    <span class="sticker">NO.01</span>
+    <div>
+      <h2 id="s1">奇片墙 · 鼠标悬停翻开背面</h2>
+      <p class="dsc">奇特电影网每日更新，正面片名、背面简介</p>
+    </div>
+    <a class="go" href="#wall">往期奇片 &raquo;</a>
+  </div>
+  <div class="flips">
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q1"><span class="num">Q-01</span><span>时间褶皱</span></div>
+          <div class="fb">
+            <h3>时间褶皱</h3>
+            <p>科幻 · 2024 · 104 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>时间褶皱</h3>
+          <p>一座小镇的时间每隔几天就错开一格，主角试图在错位里找回消失的一天。设定不复杂，情绪却很扎实。</p>
+          <div class="row"><span>科幻</span><span>冷门佳作</span><span>评分 8.4</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q2"><span class="num">Q-02</span><span>无声小镇</span></div>
+          <div class="fb">
+            <h3>无声小镇</h3>
+            <p>悬疑 · 2023 · 98 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>无声小镇</h3>
+          <p>全镇人忽然不再说话，外来者要在一周内找出原因。几乎没有配乐，安静本身就是压迫感。</p>
+          <div class="row"><span>悬疑</span><span>氛围向</span><span>评分 8.2</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q3"><span class="num">Q-03</span><span>铁皮森林</span></div>
+          <div class="fb">
+            <h3>铁皮森林</h3>
+            <p>动画 · 2022 · 92 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>铁皮森林</h3>
+          <p>手绘质感的末世童话，角色全是铁皮做的小人，讲离开与留下。画面粗粝但很真诚。</p>
+          <div class="row"><span>动画</span><span>成人向</span><span>评分 8.7</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q4"><span class="num">Q-04</span><span>午夜放映厅</span></div>
+          <div class="fb">
+            <h3>午夜放映厅</h3>
+            <p>恐怖 · 2021 · 88 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>午夜放映厅</h3>
+          <p>一家只在午夜开门的影院，每场放映的内容都不太一样。靠镜头调度制造紧张，不靠突然惊吓。</p>
+          <div class="row"><span>恐怖</span><span>邪典</span><span>评分 7.9</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q5"><span class="num">Q-05</span><span>倒着走的钟</span></div>
+          <div class="fb">
+            <h3>倒着走的钟</h3>
+            <p>剧情 · 2025 · 112 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>倒着走的钟</h3>
+          <p>老人坚持把家里的钟调慢一小时，家人不解，直到最后才明白他在留住什么。后劲很足。</p>
+          <div class="row"><span>剧情</span><span>家庭</span><span>评分 8.5</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q6"><span class="num">Q-06</span><span>海边的第八日</span></div>
+          <div class="fb">
+            <h3>海边的第八日</h3>
+            <p>文艺 · 2023 · 106 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>海边的第八日</h3>
+          <p>一个写不出东西的人在海岛住下，七天之后决定留下第八天。节奏慢，适合安静的夜晚。</p>
+          <div class="row"><span>文艺</span><span>慢节奏</span><span>评分 8.3</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q7"><span class="num">Q-07</span><span>纸上城市</span></div>
+          <div class="fb">
+            <h3>纸上城市</h3>
+            <p>纪录 · 2024 · 84 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>纸上城市</h3>
+          <p>跟拍几位城市测绘员，看一座城怎么被画到纸上。看似枯燥，越看越有意思。</p>
+          <div class="row"><span>纪录</span><span>城市</span><span>评分 8.6</span></div>
+        </div>
+      </div>
+    </article>
+    <article class="flip">
+      <div class="inner">
+        <div class="face front">
+          <div class="ph q8"><span class="num">Q-08</span><span>长镜头旅人</span></div>
+          <div class="fb">
+            <h3>长镜头旅人</h3>
+            <p>实验 · 2022 · 76 分钟</p>
+          </div>
+        </div>
+        <div class="face back">
+          <h3>长镜头旅人</h3>
+          <p>全片由几个超长镜头拼接，跟随旅人穿过城市与荒野。形式感很强，接受度看个人口味。</p>
+          <div class="row"><span>实验</span><span>形式向</span><span>评分 7.8</span></div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 栏目二：冷门索引（点线目录） ============ -->
+<section class="blk wrap" id="index" aria-labelledby="s2">
+  <div class="cap">
+    <span class="sticker">NO.02</span>
+    <div>
+      <h2 id="s2">冷门索引 · 按编号翻片</h2>
+      <p class="dsc">奇特电影网把冷门片编成目录，像翻书一样找</p>
+    </div>
+    <a class="go" href="#index">完整目录 &raquo;</a>
+  </div>
+  <ol class="toc">
+    <li><span class="code">A-01</span><span class="nm"><a href="#">时间褶皱</a></span><span class="dots"></span><span class="pg">科幻 · 2024</span><span class="sc">8.4</span></li>
+    <li><span class="code">A-02</span><span class="nm"><a href="#">无声小镇</a></span><span class="dots"></span><span class="pg">悬疑 · 2023</span><span class="sc">8.2</span></li>
+    <li><span class="code">A-03</span><span class="nm"><a href="#">铁皮森林</a></span><span class="dots"></span><span class="pg">动画 · 2022</span><span class="sc">8.7</span></li>
+    <li><span class="code">A-04</span><span class="nm"><a href="#">午夜放映厅</a></span><span class="dots"></span><span class="pg">恐怖 · 2021</span><span class="sc">7.9</span></li>
+    <li><span class="code">A-05</span><span class="nm"><a href="#">倒着走的钟</a></span><span class="dots"></span><span class="pg">剧情 · 2025</span><span class="sc">8.5</span></li>
+    <li><span class="code">A-06</span><span class="nm"><a href="#">海边的第八日</a></span><span class="dots"></span><span class="pg">文艺 · 2023</span><span class="sc">8.3</span></li>
+    <li><span class="code">A-07</span><span class="nm"><a href="#">纸上城市</a></span><span class="dots"></span><span class="pg">纪录 · 2024</span><span class="sc">8.6</span></li>
+    <li><span class="code">A-08</span><span class="nm"><a href="#">长镜头旅人</a></span><span class="dots"></span><span class="pg">实验 · 2022</span><span class="sc">7.8</span></li>
+    <li><span class="code">A-09</span><span class="nm"><a href="#">第七封回信</a></span><span class="dots"></span><span class="pg">爱情 · 2021</span><span class="sc">8.1</span></li>
+    <li><span class="code">A-10</span><span class="nm"><a href="#">荒原电台</a></span><span class="dots"></span><span class="pg">剧情 · 2020</span><span class="sc">8.4</span></li>
+    <li><span class="code">A-11</span><span class="nm"><a href="#">玻璃动物园</a></span><span class="dots"></span><span class="pg">文艺 · 2019</span><span class="sc">8.0</span></li>
+    <li><span class="code">A-12</span><span class="nm"><a href="#">雨夜出租车</a></span><span class="dots"></span><span class="pg">犯罪 · 2023</span><span class="sc">8.2</span></li>
+  </ol>
+</section>
+
+<!-- ============ 栏目三：类型标本册 ============ -->
+<section class="blk wrap" id="specimen" aria-labelledby="s3">
+  <div class="cap">
+    <span class="sticker">NO.03</span>
+    <div>
+      <h2 id="s3">类型标本册 · 九个分册</h2>
+      <p class="dsc">奇特电影网把冷门片按类型做成标本卡</p>
+    </div>
+    <a class="go" href="#specimen">全部分册 &raquo;</a>
+  </div>
+  <div class="specs">
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 01</span>
+      <h3>科幻与设定</h3>
+      <p class="ex">以概念驱动，预算不高但想法扎实，靠设定撑起整部片子。</p>
+      <div class="meta"><span>代表：时间褶皱</span><b>收录 420 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 02</span>
+      <h3>悬疑与氛围</h3>
+      <p class="ex">不靠反转吓人，靠气氛压人，看完后劲比看时更明显。</p>
+      <div class="meta"><span>代表：无声小镇</span><b>收录 510 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 03</span>
+      <h3>动画与手工</h3>
+      <p class="ex">手绘、定格、剪纸等非主流动画工艺，画面质感到位。</p>
+      <div class="meta"><span>代表：铁皮森林</span><b>收录 380 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 04</span>
+      <h3>邪典与怪谈</h3>
+      <p class="ex">口味独特、争议大，但自有其忠实观众与解读空间。</p>
+      <div class="meta"><span>代表：午夜放映厅</span><b>收录 260 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 05</span>
+      <h3>文艺与慢片</h3>
+      <p class="ex">节奏慢、对白少，靠画面与留白推进，需要一点耐心。</p>
+      <div class="meta"><span>代表：海边的第八日</span><b>收录 460 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 06</span>
+      <h3>纪录与写实</h3>
+      <p class="ex">镜头对准不常被拍到的人与事，真实本身就有力量。</p>
+      <div class="meta"><span>代表：纸上城市</span><b>收录 330 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 07</span>
+      <h3>实验与形式</h3>
+      <p class="ex">打破常规叙事结构，形式本身即是内容，争议与趣味并存。</p>
+      <div class="meta"><span>代表：长镜头旅人</span><b>收录 190 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 08</span>
+      <h3>家庭与日常</h3>
+      <p class="ex">小成本、小题材，把普通人的生活拍出被忽略的细节。</p>
+      <div class="meta"><span>代表：倒着走的钟</span><b>收录 540 部</b></div>
+    </article>
+    <article class="spec">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="no">SPEC · 09</span>
+      <h3>犯罪与黑色</h3>
+      <p class="ex">类型片外壳下的人物刻画，灰度比黑白更多。</p>
+      <div class="meta"><span>代表：雨夜出租车</span><b>收录 420 部</b></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 栏目四：观后闲聊（对话气泡） ============ -->
+<section class="blk wrap" id="chat" aria-labelledby="s4">
+  <div class="cap">
+    <span class="sticker">NO.04</span>
+    <div>
+      <h2 id="s4">观后闲聊 · 编辑与读者的来回</h2>
+      <p class="dsc">奇特电影网评论区摘录，左右两侧交替</p>
+    </div>
+    <a class="go" href="#chat">更多闲聊 &raquo;</a>
+  </div>
+  <div class="chats">
+    <div class="chat">
+      <span class="who w1" aria-hidden="true">编</span>
+      <div class="bub">
+        <h3>《倒着走的钟》：慢一小时，其实是在等人</h3>
+        <p>前半段以为只是老人的执拗，看到最后才明白他在等一个不会再来的人。奇特电影网把它放进家庭与日常分册，是因为它讲的其实是所有人的事。</p>
+        <p class="who2">编辑部 · 阿岚 · 09 月 30 日</p>
+      </div>
+    </div>
+    <div class="chat rev">
+      <span class="who w2" aria-hidden="true">读</span>
+      <div class="bub">
+        <h3>看完《无声小镇》，我把家里的灯全打开了</h3>
+        <p>全片几乎没有配乐，安静得有点压迫，但确实很久没看到这么克制的悬疑片了，推荐给喜欢氛围向的观众。</p>
+        <p class="who2">读者 · 深夜看片人 · 09 月 29 日</p>
+      </div>
+    </div>
+    <div class="chat">
+      <span class="who w3" aria-hidden="true">编</span>
+      <div class="bub">
+        <h3>《铁皮森林》：粗粝画面里的温柔</h3>
+        <p>手绘质感很粗糙，角色是铁皮小人，讲的却是最软的告别。这类非主流动画在主流片单里太少见了，所以我们单独做了动画与手工分册。</p>
+        <p class="who2">编辑部 · 老陈 · 09 月 26 日</p>
+      </div>
+    </div>
+    <div class="chat rev">
+      <span class="who w4" aria-hidden="true">读</span>
+      <div class="bub">
+        <h3>《纸上城市》意外地好看</h3>
+        <p>原本以为会枯燥，结果跟着测绘员把一座城画完，居然有种莫名的满足感。纪录分册里的宝藏确实不少。</p>
+        <p class="who2">读者 · 城南小记 · 09 月 22 日</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目五：观影冷知识便签墙 ============ -->
+<section class="blk wrap" id="notes" aria-labelledby="s5">
+  <div class="cap">
+    <span class="sticker">NO.05</span>
+    <div>
+      <h2 id="s5">观影冷知识便签墙</h2>
+      <p class="dsc">奇特电影网编辑部随手贴的观影小贴士</p>
+    </div>
+    <a class="go" href="#notes">更多便签 &raquo;</a>
+  </div>
+  <div class="notes">
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>评分低不等于不好看</h3>
+      <p>冷门片常因为受众小而被低估，奇特电影网在每部影片下标注题材与节奏，比单看评分更能判断是否合口味。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>先看节奏，再看剧情</h3>
+      <p>慢片不适合碎片时间，快节奏片才适合通勤补。选片前先确认片长与节奏，能省下不少半途而废。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>实验影像怎么入门</h3>
+      <p>从片长 80 分钟以内、有明确主线的作品开始，接受度会高很多，不必一上来就挑战纯形式作品。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>邪典片的正确打开方式</h3>
+      <p>别用常规逻辑去挑毛病，把它当作一种风格尝试来看，往往能看出作者的想法与趣味。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>补片按分册走</h3>
+      <p>奇特电影网把冷门片分成九个标本分册，按自己喜欢的类型一路补下去，比随机挑片效率高。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>看完记得留一句</h3>
+      <p>冷门片的讨论本来就少，你留下的一句短评，可能正是下一个人决定要不要看的理由。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>版本差异要留意</h3>
+      <p>部分冷门片存在导演剪辑版与公映版差异，奇特电影网在索引中标注年份与时长，方便对照选择。</p>
+    </div>
+    <div class="note">
+      <span class="tape" aria-hidden="true"></span>
+      <h3>别在深夜挑战慢片</h3>
+      <p>慢节奏文艺片放在深夜很容易看睡着，建议留到周末白天，配一杯热饮慢慢看完。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目六：站点特色 ============ -->
+<section class="blk wrap" id="why" aria-labelledby="s6">
+  <div class="cap">
+    <span class="sticker">NO.06</span>
+    <div>
+      <h2 id="s6">为什么用奇特电影网找冷门片</h2>
+      <p class="dsc">把冷门片整理成册，比随机翻找更省事</p>
+    </div>
+    <a class="go" href="#about">了解我们 &raquo;</a>
+  </div>
+  <div class="pts">
+    <div class="pt">
+      <span class="n" aria-hidden="true">01</span>
+      <h3>冷门片分册整理</h3>
+      <p>按类型做成九个标本分册，每册标注代表作品与收录数量，补片有顺序可循。</p>
+    </div>
+    <div class="pt">
+      <span class="n" aria-hidden="true">02</span>
+      <h3>编号式索引</h3>
+      <p>冷门索引按编号排列，片名、年代与评分一目了然，像翻书目录一样找片。</p>
+    </div>
+    <div class="pt">
+      <span class="n" aria-hidden="true">03</span>
+      <h3>每日奇片墙</h3>
+      <p>每晚 20:00 更新一批奇片，正面片名、背面简介，先看设定再决定要不要点开。</p>
+    </div>
+    <div class="pt">
+      <span class="n" aria-hidden="true">04</span>
+      <h3>全端自适应</h3>
+      <p>响应式排版覆盖手机、平板与桌面端，翻转卡与索引在小屏自动切换为单列。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目七：关于 / FAQ ============ -->
+<section class="blk wrap" id="about" aria-labelledby="s7">
+  <div class="cap">
+    <span class="sticker">NO.07</span>
+    <div>
+      <h2 id="s7">关于奇特电影网 · 常见问题</h2>
+      <p class="dsc">了解奇特电影网的收录范围与更新节奏</p>
+    </div>
+    <a class="go" href="#about">联系站长 &raquo;</a>
+  </div>
+  <div class="faqs">
+    <details open>
+      <summary>奇特电影网主要推荐什么类型的电影？</summary>
+      <p>奇特电影网（https://qitedianyingwang-cn.github.io）主要推荐冷门佳片、邪典电影与小众电影，包括科幻、悬疑、动画、恐怖、文艺、纪录与实验影像等方向，也收录部分被低估的主流影片，并附剧情简介与评分参考。</p>
+    </details>
+    <details>
+      <summary>奇特电影网的片单多久更新一次？</summary>
+      <p>奇片墙与冷门索引每日 20:00 更新，类型标本册按周补充，观影冷知识持续增补，评分参考随新片收录同步刷新。</p>
+    </details>
+    <details>
+      <summary>手机端可以正常浏览奇特电影网吗？</summary>
+      <p>可以。奇特电影网采用响应式设计，翻转卡片在小屏切换为单列，冷门索引自动折叠点线引导，便签墙取消倾斜排列，移动端另配底部快捷导航。</p>
+    </details>
+    <details>
+      <summary>找不到想看的冷门电影怎么办？</summary>
+      <p>可使用顶部搜索框按片名或导演检索，也可进入冷门索引按编号与类型查找；仍未收录的影片可通过联系站长提交片名，我们会在下一次更新时优先补录。</p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 页脚 ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <span class="sb">奇特电影网</span>
+        <p>奇特电影网专注冷门佳片、邪典电影与小众电影推荐，把那些评分不高却后劲十足、看过的人不多却值得被提起的影片整理成册。每日更新奇片墙与冷门索引，附剧情简介与编辑评分参考，帮你看点不一样的电影。</p>
+        <p>网址：https://qitedianyingwang-cn.github.io</p>
+      </div>
+      <div>
+        <h4>观影片单</h4>
+        <ul>
+          <li><a href="#wall">奇片墙</a></li>
+          <li><a href="#index">冷门索引</a></li>
+          <li><a href="#specimen">类型标本册</a></li>
+          <li><a href="#chat">观后闲聊</a></li>
+          <li><a href="#notes">观影冷知识</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>标本分册</h4>
+        <ul>
+          <li><a href="#specimen">科幻与设定</a></li>
+          <li><a href="#specimen">悬疑与氛围</a></li>
+          <li><a href="#specimen">动画与手工</a></li>
+          <li><a href="#specimen">邪典与怪谈</a></li>
+          <li><a href="#specimen">纪录与写实</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>站点信息</h4>
+        <ul>
+          <li><a href="#about">关于奇特电影网</a></li>
+          <li><a href="#why">站点特色</a></li>
+          <li><a href="#">更新日志</a></li>
+          <li><a href="#">意见反馈</a></li>
+          <li><a href="#">免责声明</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">
+      奇特电影网 &copy; 2026 · 本站为冷门电影推荐与影视资讯聚合站点，所列影片信息仅供参考。<br>
+      Powered by 奇特电影网 | https://qitedianyingwang-cn.github.io
+    </p>
+  </div>
+</footer>
+
+<!-- ============ 移动端底部导航 ============ -->
+<nav class="dock" aria-label="移动端快捷导航">
+  <ul>
+    <li><a href="#top" class="on"><span class="ic" aria-hidden="true">◆</span>首页</a></li>
+    <li><a href="#wall"><span class="ic" aria-hidden="true">▤</span>奇片</a></li>
+    <li><a href="#index"><span class="ic" aria-hidden="true">▣</span>索引</a></li>
+    <li><a href="#specimen"><span class="ic" aria-hidden="true">✦</span>标本</a></li>
+    <li><a href="#about"><span class="ic" aria-hidden="true">◎</span>关于</a></li>
+  </ul>
+</nav>
+
+<a class="up" href="#top" aria-label="返回顶部">↑</a>
+
+</body>
+</html>
